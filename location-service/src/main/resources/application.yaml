@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: address-service
+
+server:
+    port: 8200
+
+geolocation:
+    api:
+        url: https://api.example.com/geolocate
+        key: c7ff680adaae4af982f6b871e7107d96

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: user-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/users_db
+
+
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/users_db
+#    email: root
+#    password: 1234
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update  # or create, create-drop, validate, none
+#    show-sql: true     # Set to true to see SQL queries in the console
+
+server:
+  port: 8100
+
